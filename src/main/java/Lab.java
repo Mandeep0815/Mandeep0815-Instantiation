@@ -1,5 +1,7 @@
 
 public class Lab {
+
+
     /**
      * Java relies very heavily on OOP, so all of our code will rely on Objects. Before we write our own objects,
      * let's first look into how we can leverage them in our code. Every test, for instance, has to first create an
@@ -18,6 +20,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Lab l1 = new Lab();
+        return l1;
     }
 }
